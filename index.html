@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar-imagem">
+      <div class="imagem">
+        <img src="" alt="" />
+        <span>Odin</span>
+      </div>
+      <p>foto de<a href="">fulano</a></p>
+    </div>
+
+    <div class="corpo-formulario">
+      <header class="cabeçalho-texto">
+        <p>
+          Este não é um serviço online real! Você sabe que precisa de algo assim
+          em sua vida para ajudá-lo a realizar seus sonhos mais profundos.
+          Cadastre-se agora para começar.
+        </p>
+        <p>Você sabe que quer</p>
+      </header>
+
+      <form action="#" method="post">
+        <legend>Vamos fazer isso!</legend>
+
+        <div class="form-row">
+          <div class="input-group">
+            <label for="primeiro-nome">primeiro nome</label>
+            <input
+              type="text"
+              id="primeiro-nome"
+              name="primeiro-nome"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="segundo-nome">segundo nome</label>
+            <input type="text" id="segundo-nome" name="segundo-nome" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-group">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="input-group">
+            <label for="numero-telefone">número de telefone</label>
+            <input type="tel" id="numero-telefone" name="numero-telefone" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-group">
+            <label for="senha">senha</label>
+            <input type="password" id="senha" name="senha" required />
+          </div>
+          <div class="input-group">
+            <label for="confirmar-senha">confirme a senha</label>
+            <input
+              type="password"
+              id="confirmar-senha"
+              name="confirmar-senha"
+              required
+            />
+          </div>
+        </div>
+        <div class="footer-form">
+          <button type="submit">Criar conta</button>
+          <p>Você já tem uma conta?<a href="">Log in</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
